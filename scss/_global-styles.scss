@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    &,
+    &:after,
+    &:before {
+    @include box-sizing;
+}
+}
+
+
+body {
+    height: 100%;
+    font-family: 'Tahoma', 'Arial', sans-serif;
+}
+
+h3{
+    
+
+    &.separator {
+        border-bottom: 3px solid $sep-color;
+        margin-top: 100px;
+        margin-bottom: 50px;
+
+        }
+
+    &.section-name {
+            line-height: 67px;
+            text-transform: uppercase;
+            font: {
+                size: 24px;
+                weight: 400;
+            }
+            }
+    }
+.clear {
+        &::after{
+            content: " ";
+            clear: both;
+            display: block;
+        }
+    }
+
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+

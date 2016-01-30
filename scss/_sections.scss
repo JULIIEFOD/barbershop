@@ -1,0 +1,240 @@
+
+
+.main-photo{
+    background-image: url("../img/11861753055_5b4730ce91_o.png");
+    @include bg-image;
+    height: 700px;
+    padding-top: 250px;
+    
+        h1{
+            color: white;
+            text-align: center;
+            margin: 0;
+            font-size: 64px;
+
+                    
+            span.b-shop{
+            font-size: 90px;
+            font-weight: 400;
+            font-family: 'Lobster', cursive;
+            }
+            
+        }
+        
+
+    }
+
+
+
+.about .text-about {
+
+    p.quote{
+    text-transform: uppercase;
+    width: 300px;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 50px;
+    font-family: 'Magra', sans-serif;
+    margin-bottom: 105px;
+    float: left;
+     
+        
+        .fa-quote-left:before {
+        color: $sep-color;
+        font-size: 50px;
+        }
+        
+        
+    }
+    
+    
+    p.column {
+    @include small-text;
+    width: 360px;
+    height: 200px;
+    float: right;
+    margin-left: 55px;
+    
+    }
+    }
+
+
+
+
+
+.central-pic   {
+    background-image: url("../img/splitshire_img_9950.png");
+    @include bg-image;
+    height: 582px;
+    padding-top: 320px;
+    
+        
+        .sign {
+        float: right;
+        margin-right: -114px;
+        @include transform270;
+        }
+    
+        p {
+            &.detail{
+            text-transform: uppercase;
+            font-family: 'Magra', sans-serif;
+            color: white;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 50px;
+            width: 345px;
+            margin-bottom: 6px;
+            }
+    
+        }
+         
+        
+        .line {
+        height: 13px;
+        width: 70px;
+        background-color: $sep-color;   
+
+        }
+        }
+
+.services{
+    .service-item{
+        width: 250px;
+        float: left;
+        margin-right: 65px;
+        &__name {
+                color: #212121;
+                font-size: 40px;
+                font-weight: 400;
+                width: 260px;
+                height: 100px;
+                margin-bottom: 30px;
+        }
+         &:nth-child(5) {
+                margin-right: 0;
+                }
+
+        &__price {
+                font-weight: 700;
+        }
+
+        &__description {
+                @include small-text;
+        }
+
+    }
+}
+
+
+
+.lookbook .gallery {
+    height: 678px;
+    
+    img {
+    float: left;
+    }
+}
+
+
+
+
+.reservation {
+        padding-bottom: 100px;
+        .id-forms {
+        float: left;
+        margin-right: 40px;
+    
+            input {
+            display: block;
+            height: 55px;
+            width: 385px;
+            margin-bottom: 30px;
+            padding-left: 15px;
+            padding-right: 15px;
+
+                &:last-child{
+                margin-bottom: 0;
+                }
+            
+            }
+            button.reserve {
+            background-color: $sep-color;
+            width: 195px;
+            height: 55px;
+            color: white;
+            font-size: 24px;
+            border: 0;
+            margin-top: 30px;
+            text-transform: uppercase;
+
+            }
+        }
+        .additional {
+        float: right;
+            
+            textarea {
+            height: 310px;
+            width: 775px;
+            resize: none;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 15px;
+            }
+            
+        }
+        
+}
+
+
+  .map {
+      
+      .container {
+        height: 582px;
+        background-image: url("../img/Layer%205.jpg");
+        @include bg-image;
+        position: relative;
+          .map-label {
+                width: 200px;
+                position: absolute;
+                margin-left: 557px;
+                margin-top: 100px;
+                  
+                p.header-logo{
+                    font-size: 23px; 
+                    margin: 0;
+                    margin-bottom: 18px;
+                   
+                  }
+              .label-box{
+                  padding: 21px;
+                  background-color: #ffffff;
+                    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.21);
+              }
+              p.adress {
+                    
+                    text-align: left;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+            }
+         
+          }
+          .arrow-down {
+            width: 0; 
+            height: 0; 
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-top: 20px solid white;
+            margin: 0 auto;
+        }
+          
+        }
+    }
+
+
+    
+
+    
+
+  

@@ -1,0 +1,33 @@
+$sep-color: #fbdc00;
+$scissors:  "\2702";
+
+
+
+@mixin transform270 {
+     -webkit-transform: rotate(270deg); /* Safari and Chrome */
+        -moz-transform: rotate(270deg);   /* Firefox */
+        -ms-transform: rotate(270deg);   /* IE 9 */
+        -o-transform: rotate(270deg);   /* Opera */
+        transform: rotate(270deg);
+}
+
+@mixin box-sizing {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@mixin small-text {
+        color: #595959;
+        font-family: Born;
+        font-size: 16px;
+        line-height: 26px;
+        overflow: hidden;
+    }
+
+@mixin bg-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1200px;
+}
